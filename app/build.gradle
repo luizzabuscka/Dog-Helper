@@ -45,4 +45,5 @@ dependencies {
   compile "org.jetbrains.anko:anko-support-v4:$anko_version"
   compile 'org.jetbrains.anko:anko-appcompat-v7:0.9.1'
   implementation 'com.android.support:support-v4:26.0.0'
+  compile "org.jetbrains.anko:anko-sqlite:$anko_version"
 }

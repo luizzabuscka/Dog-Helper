@@ -12,6 +12,7 @@ import io.reactivex.schedulers.Schedulers
 class SplashInteractor(val presenter: ISplashPresenter) : ISplashInteractor {
 
   override fun saveLogin(login: Login) {
+
     presenter.callNextActivity()
   }
 
